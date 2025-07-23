@@ -65,7 +65,7 @@ const About = () => {
           className="text-center mt-12"
         >
           <h3 className="text-3xl md:text-4xl font-bold text-amber-600 leading-tight">
-            Il est temps de rentrer à la maison
+            Il est temps de vous retrouver
           </h3>
         </motion.div>
 
@@ -76,8 +76,8 @@ const About = () => {
           className="mt-16 text-center"
         >
           <p className="text-xl text-stone-700 leading-relaxed max-w-3xl mx-auto">
-            Vous sentez un brouillard intérieur, un besoin de quitter cette boucle qui se répète 
-            ou simplement d'élargir votre royaume intérieur ?
+            Vous sentez un brouillard mental ? Un besoin de quitter cette boucle ? 
+            Ou simplement d'élargir votre royaume intérieur ?
           </p>
         </motion.div>
 
@@ -92,23 +92,28 @@ const About = () => {
           </h3>
           <div className="space-y-4 text-lg text-stone-700 leading-relaxed max-w-3xl mx-auto">
             <p>
-              Je te propose de nous rencontrer et de jouer pour toi le rôle de miroir. 
+              Je te propose de nous rencontrer.
+            </p>
+            <p>
+              De jouer pour toi le rôle de miroir.
+            </p>
+            <p>
               Pour t'aider à porter un nouveau regard sur toi et ta situation.
             </p>
-            <p>
-              Pour explorer ensemble tes souvenirs fondateurs, tes croyances limitantes, tes peurs cachées. 
-              Pour t'aider à retirer, ne serait-ce qu'un instant, ces lunettes qui te bloquent.
+            <p className="text-lg text-stone-700 leading-relaxed">
+              Un regard sincère et bienveillant, qui s'accepte tel qu'il est, avec ses défauts, sans déni protecteur.
             </p>
             <p>
-              Pas pour te cajoler et te réconforter sur le fait que tu as raison et l'autre a tort. 
-              Je te propose d'affronter ce que tu ne veux peut-être pas voir ou entendre (le célèbre déni).
+              Pour explorer ensemble tes souvenirs fondateurs, tes croyances limitantes, tes peurs cachées.
+            </p>
+            <p>
+              Pour t'aider à retirer, ne serait-ce qu'un instant, ces lunettes qui te bloquent.
             </p>
             <p className="text-lg text-stone-700 leading-relaxed">
               On creuse à deux, éclaire les zones d'ombre, on trouve les clés pour rouvrir tes portes intérieures.
             </p>
             <p className="font-medium text-amber-700 text-center">
-              On part de là où tu en es, pour clarifier ton chemin, te libérer de ce qui t'enchaîne 
-              et te redonner ton pouvoir de créateur conscient.
+              On part de là où tu en es, de ce qui te trotte par la tête, de tes envies... et on voit où ça nous mène !
             </p>
           </div>
         </motion.div>
