@@ -4,7 +4,7 @@ import { Video, ArrowRight } from 'lucide-react';
 
 const Hero = () => {
   return (
-    <section id="accueil" className="pt-24 pb-20 bg-gradient-to-br from-stone-50 to-amber-50/30">
+    <section id="accueil" className="pt-32 pb-12 bg-gradient-to-br from-stone-50 to-amber-50/30">
       <div className="max-w-6xl mx-auto px-6">
         {/* Three main promises */}
         <motion.div

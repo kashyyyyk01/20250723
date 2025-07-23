@@ -4,7 +4,7 @@ import { RefreshCw, Eye, Lightbulb } from 'lucide-react';
 
 const About = () => {
   return (
-    <section className="py-20 bg-white">
+    <section className="py-12 bg-white">
       <div className="max-w-6xl mx-auto px-6">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
