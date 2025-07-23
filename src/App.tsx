@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from './components/Navbar';
+import HeaderNavbar from './components/HeaderNavbar';
 import Hero from './components/Hero';
 import About from './components/About';
 import Services from './components/Services';
@@ -9,7 +9,7 @@ import Contact from './components/Contact';
 function App() {
   return (
     <div className="bg-stone-50 min-h-screen">
-      <Navbar />
+      <HeaderNavbar />
       <Hero />
       <About />
       <Services />
