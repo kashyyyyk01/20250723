@@ -3,11 +3,12 @@ import { motion } from 'framer-motion';
 import { Menu, X } from 'lucide-react';
 
 const Logo = () => (
-  <div className="flex items-center space-x-2">
-    <div className="w-8 h-8 bg-gradient-to-br from-amber-400 to-amber-600 rounded-lg flex items-center justify-center">
-      <span className="text-white font-bold text-sm">LPL</span>
-    </div>
-    <span className="text-stone-800 font-semibold text-xl">LetsplayLife</span>
+  <div className="flex items-center">
+    <img 
+      src="/Images/20250711_LPL_White_ccard_Recto.png" 
+      alt="Michael Logo" 
+      className="h-10 w-auto"
+    />
   </div>
 );
 
@@ -34,7 +35,7 @@ const HeaderNavbar = () => {
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.6 }}
-      className="fixed top-0 left-0 right-0 bg-white border-b border-stone-200 z-50 shadow-sm"
+      className="fixed top-0 left-0 right-0 bg-white/95 backdrop-blur-sm border-b border-stone-200 z-50 shadow-sm"
     >
       <div className="max-w-6xl mx-auto px-6">
         <div className="flex items-center justify-between h-16">
