@@ -52,7 +52,7 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="text-lg md:text-xl font-light text-stone-600 mb-16 leading-relaxed"
           >
-            Accompagnement psycho-spirituel de{' '}
+            Accompagnement et activités de{' '}
             <span className="font-bold text-stone-800">transformation intérieure</span>{' '}
             et <span className="font-bold text-stone-800">d'éveil à soi</span>
           </motion.h1>
